@@ -52,3 +52,13 @@ Tables include:
 
 - php native
 - mysql
+
+---
+## 📎 Notes
+- You must have a working database for the backend to function.
+
+- Admin panel can be integrated via a dashboard interface (e.g., React or Django Admin).
+
+- File upload logic is required for movie posters and trailers.
+
+
