@@ -35,11 +35,11 @@ This is the backend for a cinema ticket booking system that supports both **onli
 
 ## 🗃️ Database Requirements
 
-This project uses a **relational database** (like SQLite or PostgreSQL). You must have a database installed and set up before running the backend.
+This project uses a **relational database** (SQL). You must have a database installed and set up before running the backend.
 
-Tables may include:
+Tables include:
 
-- `users` (ID, name, email, password, role)
+- `users` (ID, name, email, password, roleId)
 - `movies` (ID, title, description, poster, trailer, actors, director, type, start_date, end_date)
 - `seats` (ID, seat_number, row, hall_id, is_booked, movie_id)
 - `bookings` (ID, user_id, seat_id, movie_id, booking_time, food_order_id)
@@ -50,11 +50,5 @@ Tables may include:
 
 ## 🚀 Technologies Used
 
-- Python / Node.js (your choice)
-- SQLite / PostgreSQL
-- REST API (Flask, Express, or Django)
-- Authentication (JWT / Sessions)
-- File upload handling for images and trailers
-- Optional: Frontend integration with React or plain HTML/CSS
-
----
+- php native
+- mysql
